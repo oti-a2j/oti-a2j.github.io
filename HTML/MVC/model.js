@@ -25,10 +25,6 @@ class t_eq2_model
 		this.a=a;
 		this.b=b;
 		this.c=c;
-		this.x1_re=x1_re;
-		this.x1_im=x1_im;
-		this.x2_re=x2_re;
-		this.x2_im=x2_im;
 	}
 	
 	solve()

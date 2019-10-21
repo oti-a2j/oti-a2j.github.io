@@ -24,7 +24,7 @@ class t_eq2_controller
 		
 		this.model.set_coefficients(a, b, c);
 		this.model.solve();
-		this.model.get_solutions();
+		var solutions = this.model.get_solutions();
 		
 		this.view.set_solutions_para(solutions);
 	}

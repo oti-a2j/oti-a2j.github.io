@@ -12,7 +12,7 @@ class t_eq2_view
 		this.events = events;
 	}
 	
-	on_solve_cliked()
+	on_solve_clicked()
 	{
 		//ar trebui sa apelam functia on_solve din consola, dar nu putem direct
 		//din lisat de evenimente de functii apelam functia on solve
