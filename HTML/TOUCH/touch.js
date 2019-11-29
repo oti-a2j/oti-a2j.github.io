@@ -58,7 +58,7 @@ function touch_move_uab(e)
 		{
 			if (t[i].identifier == last_touch[j].id) 
 			{
-				touch_index = j
+				touch_index = j;
 				break;
 			}
 		}
@@ -90,7 +90,7 @@ function touch_end_uab(e)
 		{
 			if (t[i].identifier == last_touch[j].id) 
 			{
-				touch_index = j
+				touch_index = j;
 				break;
 			}
 		}
