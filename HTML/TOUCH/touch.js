@@ -34,8 +34,8 @@ function touch_start_uab(e)
 		context.stroke();
 
 		var touch_info = {};
-		touch_info.x = t[i]pageX;
-		touch_info.y = t[i]pageY;
+		touch_info.x = t[i].pageX;
+		touch_info.y = t[i].pageY;
 		touch_info.color = context.fillStyle;
 		touch_info.id = t[i].identifier;
 
