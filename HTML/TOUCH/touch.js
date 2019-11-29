@@ -16,7 +16,9 @@ function get_random_color()
 		culoare += tmp[Math.floor(Math.random() * 16)];
 	}
 	return culoare;
+}
 
+function touch_start_uab(e)
 {
 	var t = e.changedTouches;
 	for (var i = 0; i < t.length; i++)
